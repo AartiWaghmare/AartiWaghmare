@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "fullName": "Aarti ",
+      "address": "Pune",
+      "phoneNumber": "333-962-7516",
+      "email": "Aarti@gmail.com"
+    },
+    {
+      "id": 2,
+      "fullName": "Arjun",
+      "address": "Mumbai",
+      "phoneNumber": "011-211-7516",
+      "email": "Arjun@gmail.com"
+    },
+    {
+      "id": 3,
+      "fullName": "Shiv",
+      "address": "Bangalore",
+      "phoneNumber": "788-962-7516",
+      "email": "Shiv@gmail.com"
+    },
+    {
+      "id": 4,
+      "fullName": "Rudra",
+      "address": "Chennai",
+      "phoneNumber": "011-962-111",
+      "email": "Rudra@gmail.com"
+    },
+    {
+      "id": 5,
+      "fullName": "Sayali",
+      "address": "Chennai",
+      "phoneNumber": "011-962-111",
+      "email": "Sayali@gmail.com"
+
+      
+    }
+  ]
+  
