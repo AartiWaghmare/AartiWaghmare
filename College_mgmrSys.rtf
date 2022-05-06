@@ -1,0 +1,212 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs22\lang9                    \fs40 College Management System\fs22\par
+\b0\par
+\b\fs28 Abstract:\b0\fs22\par
+
+\pard\sl240\slmult1 Mobile technology is one of the vast technologies spreaded between people .The main motivation behind mobile technology is To\par
+connect people with each other. Mobile technology has introduced new Environment among student and teacher that can be used to\par
+improve todays learning system. Taking into consideration this promising setting, a study was undertaken to realize the impact of such\par
+an environment, made possible by the android platform, on the learning process amongst students. The proposed system will\par
+introduce and improve interactivity, accessibility, and convenience in the learning process. Overall notification to students will be sent\par
+from admin office through app directly. Any new notice for a particular semester will be uploaded by professor through applic ation\par
+notifying to respective semester students. Application also includes logic to support above mentioned facilities t o its students,\par
+however if the person downloading the application is not a student but an aspirant who has completed HSC and wants to know ab out\par
+the college then it only includes the advertisement of the college. Senior college toppers can also share their tips and tricks with other\par
+students via chat interface. Student\rquote s attendance is also monitored by the application.\par
+\b\fs28\par
+ INTRODUCTION\par
+\b0\fs22\par
+The design and implementation of the system is to provide\par
+service in institute and colleges. The system is to provide\par
+comprehensive student information system and user interface is\par
+to replace the current paper records. College Staff uploads\par
+attendance, results and college notifications through a secure,\par
+online interface using android devices. All data is thoroughly\par
+reviewed and validated on the server before actual record\par
+alteration occurs. The system plans for student user interface,\par
+allowing students to access tips and tricks as provided by their\par
+seniors. All data is stored securely on SQL servers managed by\par
+the college Administrator. The system decreases paperwork and\par
+time needed to access student records. Previously, college relied\par
+heavily on paper records for this initiative which had its own\par
+disadvantages. This system provides a simple interface for the\par
+maintenance of student information. It can be used by\par
+educational institutes or colleges to maintain the records of\par
+students easily. Achieving this objective is difficult using a\par
+manual system as the information are scattered, can be\par
+redundant and collecting relevant information may be very time\par
+consuming. Our proposed system ensures to overcome these\par
+limitations. The paper focuses on presenting information in an\par
+easy and intelligible manner which provides facilities like online\par
+registration and profile creation of students, attendance\par
+monitoring, circular notifications, thus reducing paper work and\par
+automating the record generation process in an educational\par
+institution. There is an increasing trend for higher education\par
+institutions to be expected to monitor student records. This\par
+software generates reports on the results of research that\par
+considered the effect of attendance on student performance;\par
+surveyed planning students about attendance issues, shared the\par
+results with colleagues including agreement on a Departmental\par
+policy change, and assessed the approach academic staff should\par
+take towards poor attendance.\par
+\par
+\b\fs28 II. RELATED WORK\par
+\b0\fs22\par
+There is another part which is feedback, the student can give the\par
+feedback at anytime from anywhere to faculty. This feedback\par
+can be reviewed by the admin or the management committee of\par
+the institute through which the confidentiality of the feedback of\par
+the faculty can be maintained. Th is application is developed for\par
+daily student attendance in colleges and institutes. It can also be\par
+useful in an organization or company at a certain limit not the\par
+whole application. The system which is used nowadays has\par
+some drawbacks which need to be improved for better\par
+performance. The system through which the feedback is taken is\par
+not good enough. The views of each and every student are not\par
+expressed through these systems. As the technology is\par
+developed day by day we need to use this technology so we can\par
+get an efficient result in adequate time. For attendance\par
+management in the present system all work is done on paper.\par
+The whole session attendance is stored in register and at the end\par
+of the session the reports are generated. We are not interested in\par
+generating report in the middle of the session or as per the\par
+requirement because it takes more time in calculation. At the end\par
+of session the students who don\rquote t have 75% attendance get a\par
+notice. This is a very time consuming process. In the present\par
+system the result is viewed on the notice board. It requires lot of\par
+paperwork and is time consuming. Moreover, there is no system\par
+still present through which students can take advice from senior\par
+students. College cannot even provide urgent notifications to\par
+students in case of emergency.\par
+\par
+\b\fs28 III. PROPOSED SYSTEM\par
+\par
+\b0\fs22 Figure.1.System Architecture\par
+The system architecture has a smart phone with android OS, a\par
+web services, a database server and the user as its components.\par
+The android smart phone or tablet must use network for internet\par
+connectivity to ensure better performance however 2G should\par
+also satisfy user request with added disadvantage of time lag.\par
+The user will login to the application through an android smart\par
+phone. The user-type is verified with the database server and\par
+access is given to the appropriate user. The web application also\par
+can be used to login and perform certain operations such as\par
+registration of users, generation of reports. The web application\par
+and the android application access data from a common\par
+Database server through the internet.\par
+\b\fs28 1. User Module:\b0\fs22  In this module we are authenticating the users\par
+by providing username and password. If username and password\par
+is valid then they will be taken to their screens. To identify user\par
+we are using unique IMEI number of android device with the\par
+number stored at server. When they get matched with each other\par
+system checks the status of that device and transfer the control to\par
+respective user-interface.\par
+\b\fs28 2. Database Module:\b0\fs22  The proposed system used MySql as its\par
+database because of their simplicity and flexibility. This module\par
+store every single information about students, faculty and model\par
+their data on specified operations. These operation can be\par
+storing student attendance, result data or can be authentication\par
+credentials.\par
+\b\fs28 3. Staff Module:\b0\fs22  This module is designed for staff, which use\par
+mobile phone to take attendance, upload result and upload\par
+college notifications. The entered admin details are encrypted\par
+and sent to server for verification. Only after successful\par
+authentication the operations are performed. If username and\par
+password cannot match, he/she can enter in to attendance page.\par
+\b\fs28 4. Attendance Module:\b0\fs22  The purpose of Attendance Entry\par
+Module is to enter the attendance using cell phone. In this\par
+module Lecturer takes the attendance using the cell phone.\par
+Lecturers select the branch, semester and year. After this session\par
+he enters in to attendance page. Here staff makes a mark on the\par
+absentees. Lecturer is only allowed to take attendance during\par
+their lecture time. In case of swapping of lecture or extra lecture,\par
+HOD can allow other faculty to take attendance of students by\par
+swapping  the logic of time -table permanently or temporarily.\b\fs28\par
+5. Communicate Module:\b0\fs22  in which student or Staff can convey\par
+a message or communicate with each other. In this the ordinary\par
+text can be sended as well as the various files like in format of\par
+Word(.doc,docx),Pdf(.pdf),text(.txt) are can be sended.\b\fs28\par
+6. Image Gallery:\b0\fs22  Images related to institute can be seen here.\par
+All the images are uploaded by web server or admin\par
+\par
+\b\fs28 IV. PROJECT DESCRIPTION\par
+\b0\fs22\par
+The application is divided into 3 sub-groups-\par
+\b\fs24 [A] Admin :\b0\fs22\par
+1) Admin Registration The first step in this application is\par
+to get the HOD, staff members and teaching faculty to register.\par
+They need to first register their phone\rquote s IMEI number in the\par
+database. The respective person will then provide his or her\par
+phone\rquote s e-mail id and password for registration. An OTP would\par
+be then sent via e-mail address on the phone by the admin or\par
+faculty.\b\fs24\par
+2) Admin login \b0\fs22 :After registering the admin is allowed to\par
+log in. He or she can now view admin homepage where there are\par
+options to take attendance, upload results, send notifications to\par
+student. He can also view the attendance taken and uploaded\par
+results.\b\fs24\par
+3) Update gallery :\b0\fs22  Admin can add pictures to gallery this\par
+image goes to image gallery. this images are visible to student as\par
+well as teacher\par
+\b\fs28 [B] Teaching staff:\fs24\par
+1) Upload circular:\b0\fs22  Through this a staff cans uplode a\par
+notice to student. it will make easy to retrieve important notice\par
+like exam or holiday can be delivered to student\par
+\b\fs24 2) Upload Attendance:\b0\fs22  Teaching faculty can show\par
+attendance of students. So student will know his attendance. and\par
+also he is passing a attendance criteria or not\par
+\b\fs24 3) Communicate: \b0\fs22 In this the staff can uplode important\par
+notes or convey any message to student. or staff can message\par
+students\par
+\b\fs28 [C] Student:\b0\fs22\par
+\b\fs24 1) View Attendance:\b0\fs22  Students can view attendance\par
+uploaded by the faculty or HOD. They receive a PDF file\par
+and can view it anytime\b\fs24\par
+2) Communicate:\b0\fs22  Student can also communicate with each\par
+other and send files\b\fs24\par
+3) Check gallery:\b0\fs22  Images can be seen by student\par
+\b\fs24 4) View circular sent by teacher:\b0\fs22  Notices are sent to the\par
+students by HOD or admin. Useful information, college\par
+notices, important announcements are received on students\par
+registered account. They can view it anytime.\b\fs28\par
+V. ADVANTAGES OF SYSTEM \b0\fs22\par
+1. It overcomes the limitations of the web based system as our\par
+proposed system is developed on Android OS.\par
+2. As the current system is manual it does not require any\par
+sophisticated training for the User of the system.\par
+3. Students do not have to visit the college notice board every\par
+time\par
+4. No chance of the mistake as calculations for attendance will\par
+be automated.\par
+\b\fs28\par
+VI. CONCLUSION\par
+\par
+\b0\fs22 An Android based mobile application for College Management\par
+System is presented. The application offers reliability, time\par
+savings and easy control. It can be used as a base for creating\par
+and enhancing applications for viewing results, tracking\par
+attendance for colleges or any workplace. Students and their\par
+parents will also view attendance and curriculum details using\par
+this application. Also students can view details, notifications\par
+anywhere and anytime.\par
+\par
+\b\fs28 VII. REFERENCES\par
+\b0\fs22\par
+[1] S.R.Bharamagoudar, Geeta R.B., S.G.Totad \ldblquote Web Based\par
+Student Information Management System\rdblquote , International Journal\par
+of Advanced Research in Computer and Communication\par
+Engineering -June 2013, ISSN: 2319-5940\par
+[2] Yang Shulin, Hu jipieng \ldblquote Research and Implementation of\par
+Web Services in Android Network Communication\par
+Framework Volley\rdblquote  IEEE- ICCSN.2014.20.\par
+[3] Suchita Tayde, Asst. Prof. Seema Siledar \ldblquote File Encryption,\par
+Decryption Using AES Algorithm in Android Phone\rdblquote ,\par
+International Journal of Advanced Research in Computer\par
+Science and Software Engineering, May-2015, ISSN: 2277\par
+128X.\par
+[4] K. B. Lee, \ldblquote Developing Mobile Collaborative Learning\par
+Application for Mobile Users.\rdblquote  International Journal of\par
+Interactive Mobile Technologies, Vol 5, No 4, 2011, pp. 42-48.\b\fs28\par
+}
+ 
